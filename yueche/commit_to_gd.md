@@ -10,7 +10,7 @@
 
 * ** api : [/?mod=api_didi&act=receive_record_info](/?mod=api_didi&act=receive_record_info)** 
 
-* **method : GET/POST**
+* **method : POST**
 
 * **charset : UTF-8**
 
@@ -18,6 +18,7 @@
 
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
+|recordid |int|yes|订单编号
 |mobile|int|yes| 手机号 (仅针对国内运营商手机号) |
 |name |string|yes|用户姓名|
 |code |string|yes| 验证码|
