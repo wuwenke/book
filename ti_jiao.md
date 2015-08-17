@@ -3,7 +3,7 @@
 
 * ** api : [ /api/didi/signup]( /api/didi/signup)** 
 
-* **method : GET**
+* **method : GET/POST**
 
 * **charset : UTF-8**
 
