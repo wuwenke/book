@@ -11,10 +11,10 @@
 
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
-| city_en  | string | no | 城市英文 , 空时查询全国|
-|limit|int|no|每页显示多少条数据 （可选参数 , 不填则所有） |
-|page|int|no|页码 从1 开始  （可选参数 和 limit 一同使用）|
-
+| city_en  | string | yes| 城市英文 |
+|name|string|yes|用户姓名|
+|mobile|int|yes|手机号|
+|app_name|string|yes|意向楼盘名称|
 
 * **return : json**
 
