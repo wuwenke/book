@@ -1,7 +1,7 @@
 
 # 获取楼盘以及会员相关配置信息
 
-* ** api : [/api/didi/getActivityRule](/api/didi/getActivityRule)** 
+* ** api : [/api/didi/getconfig](/api/didi/getconfig)** 
 
 * **method : GET**
 
