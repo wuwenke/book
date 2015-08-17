@@ -7,6 +7,8 @@
    * [1.3 获取楼盘配置](huo_qu_lou_pan_pei_zhi.md)
    * [1.4 申请/验证手机验证码](shen_qing_yan_zheng_ma.md)
    * [1.5 提交报名](ti_jiao.md)
+   * [1.6 推送跟单](commit_to_gd.md)
+   * [1.7 跟单审核](gd_shenhe.md)
 * [2. 一般查询](yi_ban_cha_xun.md)
 * [3. 定时任务](ding_shi_ren_wu.md)
 
