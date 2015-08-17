@@ -1,7 +1,7 @@
 
 # 入口系统申请手机验证码
 
-* ** api : [/api/didi/smsverify](//api/didi/smsverify)** 
+* ** api : [/api/didi/smsverify](/api/didi/smsverify)** 
 
 * **method : GET**
 
