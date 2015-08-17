@@ -21,16 +21,9 @@
 ```
 {
     "status" : true/false
-    “code”:null
-    "msg" : null /暂无数据 
-    "data" : {
-          "hid": "楼盘ID",
-          "name": "楼盘名称",
-          "city_en": "楼盘英文",
-          “actvity_id” : “活动ID”,
-          “activity_type” : “活动类型”,  //0城市维度 1项目维度
-          “money” : <float>,   //单人单次约车金额， 如果改楼盘没有参与活动，那么此处是0
-    }
+    “code”:<code>
+    "msg" : null /已存在/保存成功/手机号格式不正确 
+    "data" : null
 }
 ```
 * **返回错误代码 code 列举**
