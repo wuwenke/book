@@ -21,33 +21,26 @@
 |recordid |int|yes|订单编号
 |mobile|int|yes| 手机号 (仅针对国内运营商手机号) |
 |name |string|yes|用户姓名|
-|code |string|yes| 验证码|
 |time|int|yes|用户专车预约时间，时间戳，指用户希望使用专车的时间|
 |cityhid|string|yes|楼盘的city_en+hid 如 bj123 (验证验证码有效性的时候 必须带入)|
-|source |string|yes|订单一级来源，平台标识 01 pc, 02 pad,03 weixin,04 chuping|
-|yx_act |string|no|营销活动标识|
 |location_start|string|yes|预约起始地址说明(文字)|
 |location_end|string|yes|预约结束地址说明(文字)，在入口页面中， 通过业务楼盘获取 (非用户输入)|
+|price|float|yes|业务系统对报名用户起止地点设定的专车费用预算价格|
+|operator_name|string|yes|业务系统审核人名称|
+|operator_id|int|yes|业务系统审核人id|
+|project_total|int|yes|楼盘在预约看房的那一天的可提供服务的总名额|
+|project_maxprice|float|yes|楼盘项目配置的单人单次可用车款上限|
+|project_limit|int|yes|楼盘在预约看房的那一天的单人可报名次数限制，以手机号为准|
 | callback | sring | no | jsonp 回调函数名称 |
 
 * **return : json/jsonp**
 
 ```
- {
-    // 调⽤成功返回true，失败返回false
-    status: true/false,
-    //
-    code:<int>,
-    // 状态描述
-    msg: '成功或失败的状态描述，⽂字信息',
-    // 扩展信息
-    data: {
-      //第n位成功预约,
-      serial_number：<int>
-
-      //T+1 到 T+7 期间内是否已约满,只有当返回错误码是1020时返回
-      week_full:<int>  1: 已满 ，0未满
-    }
+  {
+      // 调⽤成功返回true，失败返回false
+      status: true/false,
+      // 状态描述
+      msg: '成功或失败的状态描述，⽂字信息'
   }
 ```
 * **返回错误代码 code 列举**
