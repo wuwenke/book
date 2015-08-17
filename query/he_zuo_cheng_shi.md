@@ -20,47 +20,15 @@
 
 ```
 {
-    // 调⽤成功返回true，失败返回false
-    status: true/false,
-    // 状态描述
-    msg: '成功或失败的状态描述，⽂字信息',
-    // 当status为true时，返回具体数据
-    data: {
-        // 楼盘所在城市代码 `city_en`
-        city: <string>,
-        // 楼盘hid
-        hid: <int>,
-        //活动ID,
-        activity_id:<int>,
-        //楼盘所属城市下，单人报名总次数限制
-        city_limit: <int>,
-        // 楼盘名称
-        name: <string>,
-        // 楼盘所在地址信息
-        location: <string>,
-        // 在date_time这一天尚可预约报名的名额，如果周满或总名额也满，那么此处为0
-        unfilled: <int>,
-        // 项目 在date_time这一天 总共可预约报名的名额总共可预约报名的名额
-        total: <int>,
-        // 单⼈单次约车费⽤上限
-        maxprice: <float>,
-        // 单⼈预约次数限制
-        limit: <int>,
-        //预约日期剩余名额
-        user_limit: <int>,
-        app_banner: 'http://ssfda.com/sdf.jpg', //微信端使用的楼盘缩列图
-        share_info: '', //微信分享文案,
-        note : '', //活动通知信息
-        note_url : '',//活动通知多对应的URL
-        //在城市下剩余报名次数（带参数 手机号）,
-        city_unfilled: <int>,
-        //对某楼盘的剩余报名次数(带参数 手机号)
-        app_unfilled: <int>,
-        //项目余额
-        balance:<float>,
-    }
+"status" : true
+“code”:null
+"msg" : null  
+"data" : {
+       "city_en" : "城市英文名",
+       "city " : "城市",
+"city_en" : "项目ID",
 }
-
+}
 ```
 * **返回错误代码 code 列举**
 
