@@ -1,5 +1,5 @@
 
-# 获取看房打车券的面值金额和城市下打车券的份数
+# 获取看房打车券的面值金额和全国下打车券的份数
 
 * ** api : [/api/dataquery/getCouponsInfo](/api/dataquery/getCouponsInfo)** 
 
