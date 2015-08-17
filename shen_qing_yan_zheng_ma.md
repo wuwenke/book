@@ -1,5 +1,5 @@
 
-# 入口系统申请手机验证码
+# 入口系统申请与验证 手机验证码
 
 * ** api : [/api/didi/smsverify](/api/didi/smsverify)** 
 
@@ -11,9 +11,13 @@
 
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
-| cityhid  | string | yes | 用户预约的专车目标楼盘编号，格式为 city_en + hid ，此楼盘 编号与 location_end 对应的地址是对应关系，即用户提交报名的楼盘页面对应的 楼盘编号 |
-|mobile|int|no|预约用户的手机号 |
-|date_time|int|no|格式为时间戳 , 注意此处为，看房日期, 默认为查询明天|
+|mobile|int|yes| 用户表单填写的手机号 (仅针对国内运营商手机号) |
+|name |string|yes/no|用户姓名(验证验证码有效性的时候 必须带入)|
+|code |string|yes/no| 验证码（申请验证码操作 留空）|
+|cityhid|string|yes/no|楼盘的city_en+hid 如 bj123 (验证验证码有效性的时候 必须带入)|
+|source |string|yes|订单一级来源，平台标识|
+|yx_act |string|no|营销活动标识|
+|house_location|string|yes/no|楼盘地址 (验证验证码有效性的时候 必须带入)|
 | callback | sring | no | jsonp 回调函数名称 |
 
 * **return : json/jsonp**
@@ -22,45 +26,17 @@
 {
     // 调⽤成功返回true，失败返回false
     status: true/false,
+
+    //错误码
+    code:xxxx,
     // 状态描述
     msg: '成功或失败的状态描述，⽂字信息',
-    // 当status为true时，返回具体数据
+    // 扩展信息，如果当指定楼盘未参加滴滴专⻋业务或status返回false时， data可忽
+    略
     data: {
-        // 楼盘所在城市代码 `city_en`
-        city: <string>,
-        // 楼盘hid
-        hid: <int>,
-        //活动ID,
-        activity_id:<int>,
-        //楼盘所属城市下，单人报名总次数限制
-        city_limit: <int>,
-        // 楼盘名称
-        name: <string>,
-        // 楼盘所在地址信息
-        location: <string>,
-        // 在date_time这一天尚可预约报名的名额，如果周满或总名额也满，那么此处为0
-        unfilled: <int>,
-        // 项目 在date_time这一天 总共可预约报名的名额总共可预约报名的名额
-        total: <int>,
-        // 单⼈单次约车费⽤上限
-        maxprice: <float>,
-        // 单⼈预约次数限制
-        limit: <int>,
-        //预约日期剩余名额
-        user_limit: <int>,
-        app_banner: 'http://ssfda.com/sdf.jpg', //微信端使用的楼盘缩列图
-        share_info: '', //微信分享文案,
-        note : '', //活动通知信息
-        note_url : '',//活动通知多对应的URL
-        //在城市下剩余报名次数（带参数 手机号）,
-        city_unfilled: <int>,
-        //对某楼盘的剩余报名次数(带参数 手机号)
-        app_unfilled: <int>,
-        //项目余额
-        balance:<float>,
+
     }
 }
-
 ```
 * **返回错误代码 code 列举**
 
