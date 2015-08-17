@@ -11,6 +11,6 @@
    * [1.6 推送跟单](yueche/commit_to_gd.md)
 * [2. 一般查询](yi_ban_cha_xun.md)
    * [2.1 获取合作城市列表](query/he_zuo_cheng_shi.md)
-   * 2.2 参与活动的楼盘
+   * [2.2 参与活动的楼盘](query/loupan.md)
 * [3. 定时任务](ding_shi_ren_wu.md)
 
