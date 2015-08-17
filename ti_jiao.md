@@ -25,20 +25,22 @@
 * **return : json/jsonp**
 
 ```
-{
+ {
     // 调⽤成功返回true，失败返回false
     status: true/false,
-
-    //错误码
-    code:xxxx,
+    //
+    code:<int>,
     // 状态描述
     msg: '成功或失败的状态描述，⽂字信息',
-    // 扩展信息，如果当指定楼盘未参加滴滴专⻋业务或status返回false时， data可忽
-    略
+    // 扩展信息
     data: {
+      //第n位成功预约,
+      serial_number：<int>
 
+      //T+1 到 T+7 期间内是否已约满,只有当返回错误码是1020时返回
+      week_full:<int>  1: 已满 ，0未满
     }
-}
+  }
 ```
 * **返回错误代码 code 列举**
 
