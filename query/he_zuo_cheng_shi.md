@@ -3,7 +3,7 @@
 
 * ** api : [api/dataquery/getAllAppCityList ](api/dataquery/getAllAppCityList )** 
 
-* **method : GET**
+* **method : GET/POST**
 
 * **charset : UTF-8**
 
