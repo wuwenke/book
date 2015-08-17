@@ -22,10 +22,7 @@
 |price|float|yes|业务系统对报名用户起止地点设定的专车费用预算价格|
 |operator_name|string|yes|业务系统审核人名称|
 |operator_id|int|yes|业务系统审核人id|
-|project_total|int|yes|楼盘在预约看房的那一天的可提供服务的总名额|
-|project_maxprice|float|yes|楼盘项目配置的单人单次可用车款上限|
-|project_limit|int|yes|楼盘在预约看房的那一天的单人可报名次数限制，以手机号为准|
-| callback | sring | no | jsonp 回调函数名称 |
+
 
 * **return : json/jsonp**
 
