@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
+* [1.4 申请验证码](shen_qing_yan_zheng_ma.md)
+   * 1.5 报名提交
 * [1. 约车](yue_che.md)
    * [1.4 申请验证码](shen_qing_yan_zheng_ma.md)
        * 1.5 报名提交
