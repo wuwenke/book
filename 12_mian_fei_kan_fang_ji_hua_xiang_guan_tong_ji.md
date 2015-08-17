@@ -1,7 +1,7 @@
 #查询已有多少人次免费看房和多少楼盘已加入免费看房计划
 
 
-* ** api : [/api/didi/getActivityRule](/api/didi/getActivityRule)** 
+* ** api : [/api/didi/getPersonHouseCount](/api/didi/getPersonHouseCount)** 
 
 * **method : GET**
 
@@ -11,7 +11,6 @@
 
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
-| cityhid  | string | yes | 用户预约的专车目标楼盘编号，格式为 city_en + hid ，此楼盘 编号与 location_end 对应的地址是对应关系，即用户提交报名的楼盘页面对应的 楼盘编号 |
 | callback | sring | no | jsonp 回调函数名称 |
 
 * **return : json/jsonp**
@@ -19,30 +18,15 @@
 ```
 {
     // 调⽤成功返回true，失败返回false
-    status: true/false,
-
+    "status" : true/fase,
     //状态码
     code:<int>,
 
-    // 状态描述
-    msg: '成功或失败的状态描述，⽂字信息',
-
-    // 扩展信息，如果当指定楼盘未参加滴滴专车业务或status返回false时， data可忽略
-    data: {
-        rule_type:<int>, //规则类型
-        app_full ：<int> , 1楼盘名额已满，0楼盘有剩余
-        //约车时间范围和名额限制
-        date_range":{
-            "2015-06-13":{
-                "limit":"6",    //名额限制
-                "start":"14:00",    //开始时间
-                "end":"15:00",      //结束时间
-                "has_order":1,     //已约会员
-                "remain_order":5   //剩余名额
-                },
-                ...
-            }
-
+    "msg" : "成功或失败的 描述",
+    "data" : {
+        "person_num" : "已成功预约的人次",
+        "app_num": "已加入免费看房计划的楼盘数量"，
+        "total_money" : "已有发放多少钱的打车券"
     }
 }
 
