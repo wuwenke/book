@@ -23,6 +23,8 @@
 |operator_name|string|yes| 跟单系统审核人名称|
 |operator_id|int|yes| 跟单系统审核人ID|
 |flag |int|yes|跟单系统对原有订单的状态变更说明，可以为以下参数值|
+
+* flag 的取值以及含义解释
     
       1. 0 未做变更 仅通过
       2. 1 变更预约时间 通过
