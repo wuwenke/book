@@ -20,10 +20,16 @@
 |location_start|string|yes|预约起始地址说明(文字)|
 |location_end|string|yes|预约结束地址说明(文字)，在入口页面中， 通过业务楼盘获取 (非用户输入)|
 |price|float|yes|业务系统对报名用户起止地点设定的专车费用预算价格|
-|operator_name|string|yes|业务系统审核人名称|
-|operator_id|int|yes|业务系统审核人id|
-
-
+|operator_name|string|yes| 跟单系统审核人名称|
+|operator_id|int|yes| 跟单系统审核人ID|
+|flag |int|yes|跟单系统对原有订单的状态变更说明，可以为以下参数值|
+    
+      1. 0 未做变更 仅通过
+      2. 1 变更预约时间 通过
+      3. 2 变更预约地址 通过
+      4. 3 变更地址且时间 通过
+      5. 4 约车系统与跟单同步信息
+      6. -1 驳回申请
 * **return : json/jsonp**
 
 ```
