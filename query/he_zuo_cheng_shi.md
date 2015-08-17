@@ -20,14 +20,14 @@
 
 ```
 {
-"status" : true
-“code”:null
-"msg" : null  
-"data" : {
-       "city_en" : "城市英文名",
-       "city " : "城市",
-"city_en" : "项目ID",
-}
+    "status" : true
+    “code”:null
+    "msg" : null  
+    "data" : {
+           "city_en" : "城市英文名",
+           "city " : "城市",
+    "city_en" : "项目ID",
+    }
 }
 ```
 * **返回错误代码 code 列举**
