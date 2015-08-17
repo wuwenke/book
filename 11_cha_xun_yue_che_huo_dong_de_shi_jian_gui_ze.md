@@ -65,4 +65,4 @@
 
 
 * **requirement : 报名入口系统/跟单系统**
-* **provider : 滴滴约车系统开发人员**
+* **provider : 码上专车系统**
