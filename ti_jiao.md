@@ -15,10 +15,11 @@
 |name |string|yes|用户姓名|
 |code |string|yes| 验证码|
 |time|int|yes|用户专车预约时间，时间戳，指用户希望使用专车的时间|
-|cityhid|string|yes/no|楼盘的city_en+hid 如 bj123 (验证验证码有效性的时候 必须带入)|
+|cityhid|string|yes|楼盘的city_en+hid 如 bj123 (验证验证码有效性的时候 必须带入)|
 |source |string|yes|订单一级来源，平台标识 01 pc, 02 pad,03 weixin,04 chuping|
 |yx_act |string|no|营销活动标识|
-|house_location|string|yes/no|楼盘地址 (验证验证码有效性的时候 必须带入)|
+|location_start|string|yes|预约起始地址说明(文字)|
+|location_end|string|yes|预约结束地址说明(文字)，在入口页面中， 通过业务楼盘获取 (非用户输入)|
 | callback | sring | no | jsonp 回调函数名称 |
 
 * **return : json/jsonp**
