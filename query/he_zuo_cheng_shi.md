@@ -26,7 +26,7 @@
     "data" : {
            "city_en" : "城市英文名",
            "city " : "城市",
-    "city_en" : "项目ID",
+            "city_en" : "项目ID",
     }
 }
 ```
