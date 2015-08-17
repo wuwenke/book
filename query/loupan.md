@@ -1,9 +1,9 @@
 
 # 获取正在参与活动的楼盘详情
 
-* ** api : [api/dataquery/getAllAppCityList ](api/dataquery/getAllAppCityList )** 
+* ** api : [/api/dataquery/getStartAppListByCity](/api/dataquery/getStartAppListByCity)** 
 
-* **method : GET/POST**
+* **method : GET**
 
 * **charset : UTF-8**
 
