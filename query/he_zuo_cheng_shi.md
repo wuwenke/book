@@ -16,7 +16,7 @@
 |date_time|int|no|格式为时间戳 , 注意此处为，看房日期, 默认为查询明天|
 | callback | sring | no | jsonp 回调函数名称 |
 
-* **return : json/jsonp**
+* **return : json**
 
 ```
 {
