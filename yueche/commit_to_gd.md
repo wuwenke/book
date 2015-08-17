@@ -1,7 +1,7 @@
 
 # 业务系统向跟单系统推送用户报名数据
 
-* ** api : [ /api/didi/signup]( /api/didi/signup)** 
+* ** api : [/?mod=api_didi&act=receive_record_info](/?mod=api_didi&act=receive_record_info)** 
 
 * **method : GET/POST**
 
