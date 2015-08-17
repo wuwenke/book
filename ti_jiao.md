@@ -1,7 +1,7 @@
 
 # 入口系统报名提交
 
-* ** api : [/api/didi/smsverify](/api/didi/smsverify)** 
+* ** api : [ /api/didi/signup]( /api/didi/signup)** 
 
 * **method : GET**
 
