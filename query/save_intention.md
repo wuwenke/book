@@ -3,7 +3,7 @@
 
 * ** api : [/api/dataquery/insertUserintent](/api/dataquery/insertUserintent)** 
 
-* **method : GET**
+* **method : POST**
 
 * **charset : UTF-8**
 
