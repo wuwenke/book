@@ -1,6 +1,11 @@
 
 # 业务系统向跟单系统推送用户报名数据
 
+```
+测试地址 10.207.0.175  gendan.99.bch.leju.com
+正式地址 kefu.leju.com
+```
+
 * ** api : [/?mod=api_didi&act=receive_record_info](/?mod=api_didi&act=receive_record_info)** 
 
 * **method : GET/POST**
