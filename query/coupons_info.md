@@ -19,8 +19,11 @@
 {
     "status" : true/false
     “code”:<code>
-    "msg" : null /已存在/保存成功/手机号格式不正确 
-    "data" : null
+    "msg" : ‘接口描述信息’
+    "data" : {
+        “max_money”: <float> , 城市下 最高的单人单次约车金额
+        “city_fraction” :<int> 全国活动总名额之和
+    }
 }
 ```
 * **返回错误代码 code 列举**
