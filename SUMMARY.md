@@ -13,6 +13,6 @@
    * [2.1 获取合作城市列表](query/he_zuo_cheng_shi.md)
    * [2.2 参与活动的楼盘](query/loupan.md)
    * [2.3 保存约车意向信息](query/save_intention.md)
-   * [2.4 获取看房打车券的面值金额和全国的打车券的份数](query/coupons_info.md)
+   * [2.4 获取打车券信息](query/coupons_info.md)
 * [3. 定时任务](ding_shi_ren_wu.md)
 
