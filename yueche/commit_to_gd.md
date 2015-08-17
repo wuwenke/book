@@ -32,7 +32,7 @@
 |project_maxprice|float|yes|楼盘项目配置的单人单次可用车款上限|
 |project_limit|int|yes|楼盘在预约看房的那一天的单人可报名次数限制，以手机号为准|
 
-* **return : json/jsonp**
+* **return : json**
 
 ```
   {
