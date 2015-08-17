@@ -1,7 +1,7 @@
 
 # 获取合作楼盘城市列表
 
-* ** api : [/api/didi/getconfig](/api/didi/getconfig)** 
+* ** api : [api/dataquery/getAllAppCityList ](api/dataquery/getAllAppCityList )** 
 
 * **method : GET**
 
