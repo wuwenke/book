@@ -12,9 +12,6 @@
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
 | city_en  | string | yes| 城市英文 |
-|name|string|yes|用户姓名|
-|mobile|int|yes|手机号|
-|app_name|string|yes|意向楼盘名称|
 
 * **return : json**
 
