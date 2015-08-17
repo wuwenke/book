@@ -12,5 +12,6 @@
 * [2. 一般查询](yi_ban_cha_xun.md)
    * [2.1 获取合作城市列表](query/he_zuo_cheng_shi.md)
    * [2.2 参与活动的楼盘](query/loupan.md)
+   * [2.3 保存约车意向信息](query/save_intention.md)
 * [3. 定时任务](ding_shi_ren_wu.md)
 
