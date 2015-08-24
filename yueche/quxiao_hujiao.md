@@ -10,16 +10,7 @@
 
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
-| mobile  | string | yes | 乘客手机号|
-| name  | string | yes | 乘客姓名|
-|start_location|string|yes|出发地|
-|s_lat|float|yes|出发地维度|
-|s_lng|float|yes|出发地经度|
-|end_location|string|yes|目的地|
-|e_lat|float|yes|目的地维度|
-|e_lat|float|yes|目的地经度|
-|departure_time|int|yes|预约时间 时间戳|
-
+| order_id  | string | yes | 乘客手机号|
 
 
 * **return : json**
