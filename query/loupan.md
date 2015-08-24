@@ -33,6 +33,7 @@
           "money" : <float>,   //单人单次约车金额， 如果改楼盘没有参与活动，那么此处是0，
           "longitude" : <float>, //地理位置，经度
           "latitude" : <float>, //地理位置，维度
+          "address" : <string>, //楼盘所在地址
     }
 }
 ```
