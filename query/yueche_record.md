@@ -27,6 +27,7 @@
             "mobile" : <int>, //乘客手机号
             "name" : <stirng> , //乘客姓名
             "real_status" : <code> ,//第三方打车系统的订单状态
+            "appointment_time" ：<int> //预约时间戳
         }
     ]
 }
