@@ -11,7 +11,7 @@
 
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
-|mobile|int|yes| 用户表单填写的手机号 (仅针对国内运营商手机号) |
+|mobile|int|yes| 手机号 |
 |name |string|yes/no|用户姓名(验证验证码有效性的时候 必须带入)|
 |code |string|yes/no| 验证码（申请验证码操作 留空）|
 |cityhid|string|yes/no|楼盘的city_en+hid 如 bj123 (验证验证码有效性的时候 必须带入)|
