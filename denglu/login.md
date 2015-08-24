@@ -1,5 +1,5 @@
 
-# 入口系统申请与验证 手机验证码
+# 登陆验证
 
 * ** api : [/api/didi/smsverify](/api/didi/smsverify)** 
 
