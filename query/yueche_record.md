@@ -22,9 +22,13 @@
     "status" : true/false
     “code”:null
     "msg" : null /暂无数据 
-    "data" : {
-
-    }
+    "data" : [
+        {
+            "mobile" : <int>, //乘客手机号
+            "name" : <stirng> , //乘客姓名
+            "real_status" : <code> ,//第三方打车系统的订单状态
+        }
+    ]
 }
 ```
 * **返回错误代码 code 列举**
