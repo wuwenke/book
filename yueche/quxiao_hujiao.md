@@ -1,6 +1,6 @@
 #取消实时呼叫车辆
 
-* ** api : [/yueche/didi/call](/yueche/didi/call)** 
+* ** api : [/yueche/didi/cancel_call](/yueche/didi/cancel_call)** 
 
 * **method : POST**
 
