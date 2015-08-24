@@ -2,7 +2,7 @@
 
 * ** api : [/yueche/didi/call](/yueche/didi/call)** 
 
-* **method : GET**
+* **method : POST**
 
 * **charset : UTF-8**
 
