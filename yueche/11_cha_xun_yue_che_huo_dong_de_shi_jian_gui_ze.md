@@ -31,6 +31,9 @@
     data: {
         rule_type:<int>, //规则类型
         app_full ：<int> , 1楼盘名额已满，0楼盘有剩余
+        longitude : <float>, //地理位置，经度
+        latitude : <float>, //地理位置，维度
+        address: <string>, //楼盘所在地址
         //约车时间范围和名额限制
         date_range":{
             "2015-06-13":{
