@@ -11,6 +11,7 @@
    * [提交报名](yueche/ti_jiao.md)
    * [跟单审核](yueche/gd_shenhe.md)
    * [推送跟单](yueche/commit_to_gd.md)
+   * [呼叫车辆](yueche/hujiao.md)
 * [一般查询](yi_ban_cha_xun.md)
    * [获取合作城市列表](query/he_zuo_cheng_shi.md)
    * [参与活动的楼盘](query/loupan.md)
