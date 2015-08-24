@@ -3,7 +3,7 @@
 
 * ** api : [/api/dataquery/login](/api/dataquery/login)** 
 
-* **method : GET**
+* **method : POST/GET**
 
 * **charset : UTF-8**
 
