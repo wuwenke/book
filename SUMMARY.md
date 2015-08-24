@@ -16,5 +16,6 @@
    * [参与活动的楼盘](query/loupan.md)
    * [保存约车意向信息](query/save_intention.md)
    * [获取打车券信息](query/coupons_info.md)
+   * [获取约车记录](query/yueche_record.md)
 * [定时任务](ding_shi_ren_wu.md)
    * [数据统计](cron/statics.md)
