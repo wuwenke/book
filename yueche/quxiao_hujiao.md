@@ -10,7 +10,7 @@
 
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
-| order_id  | string | yes | 乘客手机号|
+| real_order_id  | string | yes | 约车系统的实际|
 
 
 * **return : json**
