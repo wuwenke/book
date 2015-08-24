@@ -12,7 +12,7 @@
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
 |mobile|int|yes| 手机号 |
-|code |string|yes/no| 验证码（申请验证码操作 留空）|
+|code |string|yes/no| 验证码（验证流程用到申请验证码操作 留空）|
 |cityhid|string|yes/no|楼盘的city_en+hid 如 bj123 (验证验证码有效性的时候 必须带入)|
 |source |string|yes|订单一级来源，平台标识 01(pc), 02(pad),03(weixin),04chuping,05kdlj,06 后台,07,08移动平台
 | callback | sring | no | jsonp 回调函数名称 |
