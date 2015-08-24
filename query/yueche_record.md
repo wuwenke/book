@@ -1,6 +1,6 @@
 # 获取约车记录
 
-* ** api : [/api/dataquery/getStartAppListByCity](/api/dataquery/getStartAppListByCity)** 
+* ** api : [/api/dataquery/getOrderInfoByMobile](/api/dataquery/getOrderInfoByMobile)** 
 
 * **method : GET**
 
