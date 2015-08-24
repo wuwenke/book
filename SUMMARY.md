@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [登陆](denglu/denglu.md)
-   *[发送验证码](denglu/login.md)
+   * [发送验证码](denglu/login.md)
 * [约车](yueche/yue_che.md)
    * [查询约车活动的时间规则](yueche/11_cha_xun_yue_che_huo_dong_de_shi_jian_gui_ze.md)
    * [免费看房计划相关统计](yueche/12_mian_fei_kan_fang_ji_hua_xiang_guan_tong_ji.md)
