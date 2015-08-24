@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [约车](yueche/yue_che.md)
+* [通用约车](yueche/yue_che.md)
    * [查询约车活动的时间规则](yueche/11_cha_xun_yue_che_huo_dong_de_shi_jian_gui_ze.md)
    * [免费看房计划相关统计](yueche/12_mian_fei_kan_fang_ji_hua_xiang_guan_tong_ji.md)
    * [获取楼盘配置](yueche/huo_qu_lou_pan_pei_zhi.md)
