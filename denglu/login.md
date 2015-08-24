@@ -42,5 +42,5 @@
 ```
 
 
-* **requirement : 报名入口系统/跟单系统**
+* **requirement : **
 * **provider : 码上专车系统**
