@@ -11,6 +11,7 @@
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
 | real_order_id  | string | yes | 约车系统的实际|
+|force|string|no|强制取消订单,当订单处于带应答状态时，该参数不用传（‘true’）|
 
 
 * **return : json**
