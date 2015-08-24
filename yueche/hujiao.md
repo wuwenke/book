@@ -19,9 +19,6 @@
 |e_lat|float|yes|目的地维度|
 |e_lat|float|yes|目的地经度|
 |departure_time|int|yes|预约时间 时间戳|
-|s_lat|float|yes|出发地维度|
-|s_lat|float|yes|出发地维度|
-|s_lat|float|yes|出发地维度|
 
 
 
