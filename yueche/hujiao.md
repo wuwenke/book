@@ -31,7 +31,7 @@
 {
     "status" : true/false
     “code”:null
-    "msg" : null /暂无数据 
+    "msg" : 正在呼叫中.../呼叫失败
     "data" : {
 
     }
