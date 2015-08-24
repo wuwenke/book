@@ -24,6 +24,8 @@
     "msg" : null /暂无数据 
     "data" : [
         {
+            "order_id"：<int>, //码上专车自己的订单编号
+            "real_order_id" : <int>, //第三方打车系统的实际订单ID
             "mobile" : <int>, //乘客手机号
             "name" : <stirng> , //乘客姓名
             "real_status" : <code> ,//第三方打车系统的订单状态
