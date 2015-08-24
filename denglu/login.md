@@ -1,5 +1,5 @@
 
-# 登陆验证
+# 发送验证码及登陆验证
 
 * ** api : [/api/didi/smsverify](/api/didi/smsverify)** 
 
