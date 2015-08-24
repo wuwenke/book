@@ -12,7 +12,7 @@
 | -- | -- | -- | -- |
 | mobile  | string | no | 在白名单列表里中的手机号|
 |limit|int|no|每页显示多少条数据 （可选参数 , 不填则所有） |
-|per_page|int|no|页码 从1 开始  （可选参数 和 limit 一同使用）|
+|page|int|no|页码 从1 开始  （可选参数 和 limit 一同使用）|
 
 
 * **return : json**
