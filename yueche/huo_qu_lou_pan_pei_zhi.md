@@ -38,6 +38,9 @@
         name: <string>,
         // 楼盘所在地址信息
         location: <string>,
+        longitude : <float>, //地理位置，经度
+        latitude : <float>, //地理位置，维度
+        address: <string>, //楼盘所在地址
         // 在date_time这一天尚可预约报名的名额，如果周满或总名额也满，那么此处为0
         unfilled: <int>,
         // 项目 在date_time这一天 总共可预约报名的名额总共可预约报名的名额
