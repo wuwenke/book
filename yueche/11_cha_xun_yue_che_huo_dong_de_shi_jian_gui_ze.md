@@ -34,6 +34,7 @@
         longitude : <float>, //地理位置，经度
         latitude : <float>, //地理位置，维度
         address: <string>, //楼盘所在地址
+        timestamp:<int>, //服务器的当前时间戳
         //约车时间范围和名额限制
         date_range":{
             "2015-06-13":{
