@@ -20,7 +20,7 @@
 |yx_act |string|no|营销活动标识 yx_01 (91购房节)|
 |location_start|string|yes|预约起始地址说明(文字)|
 |location_end|string|yes|预约结束地址说明(文字)，在入口页面中， 通过业务楼盘获取 (非用户输入)|
-| callback | sring | no | jsonp 回调函数名称 |
+| act_type | sring | no | jsonp 回调函数名称 |
 | callback | sring | no | jsonp 回调函数名称 |
 
 * **return : json/jsonp**
