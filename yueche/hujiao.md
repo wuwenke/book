@@ -15,8 +15,8 @@
 |name |string|yes| 乘客姓名|
 |departure_time|int|yes|用户预约乘车时间，时间戳，指用户希望用车的时间|
 |cityhid|string|yes|楼盘的city_en+hid 如 bj123 (验证验证码有效性的时候 必须带入)|
-|flat|float|yes|目的地纬度|
-|flng|float|yes|目的地经度|
+|flat|float|yes|起始地纬度|
+|flng|float|yes|起始地经度|
 |start_name|string|yes|预约起始地名称(文字)|
 |start_address|string|yes|预约目的地名称(文字)|
 |end_name|string|yes|预约目的地详细地址(文字)|
