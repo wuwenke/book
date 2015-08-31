@@ -24,10 +24,4 @@
    * [获取约车记录](query/yueche_record.md)
 * [定时任务](ding_shi_ren_wu.md)
    * [数据统计](cron/statics.md)
-* [H5约车](h5yue_che.md)
-   * [地址联想](H5_yueche/di_zhi_lian_xiang.md)
-   * [叫车](H5_yueche/jiao_che.md)
-   * [重新叫车](H5_yueche/zhong_xin_jiao_che.md)
-   * [取消叫车](H5_yueche/qu_xiao_jiao_che.md)
-   * [获取可约车活动日期规则](H5_yueche/huo_qu_ke_yue_che_huo_dong_ri_qi_gui_ze.md)
 
