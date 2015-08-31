@@ -25,7 +25,7 @@
    * [地址联想](H5_yueche/di_zhi_lian_xiang.md)
    * [叫车](H5_yueche/jiao_che.md)
    * [重新叫车](H5_yueche/zhong_xin_jiao_che.md)
-   * [取消叫车](qu_xiao_jiao_che.md)
+   * [取消叫车](H5_yueche/qu_xiao_jiao_che.md)
    * [获取叫车记录](huo_qu_jiao_che_ji_lu.md)
    * [获取可约车活动日期规则](huo_qu_ke_yue_che_huo_dong_ri_qi_gui_ze.md)
 
