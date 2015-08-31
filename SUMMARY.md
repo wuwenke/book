@@ -4,7 +4,8 @@
 * [登陆](denglu/denglu.md)
    * [发送验证码](denglu/login.md)
 * [约车](yueche/yue_che.md)
-   * [查询约车活动的时间规则](yueche/11_cha_xun_yue_che_huo_dong_de_shi_jian_gui_ze.md)
+   * [查询约车活动的时间规则](yueche/11_cha_xun_yue_che_huo_dong_de_shi_jian_gui_ze.md)   
+   * [H5查询约车活动的时间规则](H5_yueche/huo_qu_ke_yue_che_huo_dong_ri_qi_gui_ze.md)
    * [免费看房计划相关统计](yueche/12_mian_fei_kan_fang_ji_hua_xiang_guan_tong_ji.md)
    * [获取楼盘配置](yueche/huo_qu_lou_pan_pei_zhi.md)
    * [申请/验证手机验证码](yueche/shen_qing_yan_zheng_ma.md)
@@ -13,7 +14,7 @@
    * [推送跟单](yueche/commit_to_gd.md)
    * [呼叫车辆](yueche/hujiao.md)
    * [取消呼叫](yueche/quxiao_hujiao.md)
-   * [H5查询约车活动的时间规则](H5_yueche/huo_qu_ke_yue_che_huo_dong_ri_qi_gui_ze.md)
+
 * [一般查询](yi_ban_cha_xun.md)
    * [获取合作城市列表](query/he_zuo_cheng_shi.md)
    * [参与活动的楼盘](query/loupan.md)
