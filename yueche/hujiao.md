@@ -13,7 +13,7 @@
 | -- | -- | -- | -- |
 |mobile|int|yes| 乘客手机号 (仅针对国内运营商手机号) |
 |name |string|yes| 乘客姓名|
-|time|int|yes|用户预约乘车时间，时间戳，指用户希望用车的时间|
+|departure_time|int|yes|用户预约乘车时间，时间戳，指用户希望用车的时间|
 |cityhid|string|yes|楼盘的city_en+hid 如 bj123 (验证验证码有效性的时候 必须带入)|
 |end_name|string|yes|预约目的地名称(文字)|
 |end_address|string|yes|预约目的地详细地址(文字)|
