@@ -14,7 +14,7 @@
    * [推送跟单](yueche/commit_to_gd.md)
    * [呼叫车辆](yueche/hujiao.md)
    * [取消呼叫](yueche/quxiao_hujiao.md)
-   * [重新叫车](yueche/quxiao_hujiao.md)
+   * [重新叫车](yueche/zhong_xin_jiao_che.md)
    * [地址联想](yueche/di_zhi_lian_xiang.md)
 * [一般查询](yi_ban_cha_xun.md)
    * [获取合作城市列表](query/he_zuo_cheng_shi.md)
