@@ -23,14 +23,14 @@
     "status" : true/false
     “code”:null
     "msg" : null /无记录 
-    "data" : [
+    "data" : 
+        "cnt" :<int>,//数据总条数
+        "list":[
         {
-            "order_id"：<int>, //码上专车自己的订单编号
-            "real_order_id" : <int>, //第三方打车系统的实际订单ID
-            "mobile" : <int>, //乘客手机号
-            "name" : <stirng> , //乘客姓名
-            "real_status" : <code> ,//第三方打车系统的订单状态
-            "appointment_time" ：<int> //预约时间戳
+            "city_en"：<string>, //城市代码
+            "commit_count" : <int>, //提交用户增量
+            "succes_count" : <int>, //成功约车增量
+          
         }
     ]
 }
