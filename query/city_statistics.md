@@ -1,6 +1,6 @@
 # 获取城市增量
 
-* ** api : [yueche.leju.com/api/didi/dataquery/getStatistics](/yueche/didi/order_list)** 
+* ** api : [/api/dataquery/getStatistics](/api/dataquery/getStatistics)** 
 
 * **method : GET**
 
