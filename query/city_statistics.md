@@ -13,7 +13,7 @@
 | start_time  | string | no | 时间区间的开始时间|
 | end_time|string|no|时间区间的结束时间|
 |limit|int|no|每页显示多少条数据 （可选参数 , 不填则所有） |
-|page|int|no|页码 从1 开始  （可选参数 和 limit 一同使用）|
+|per_page|int|no|页码 从1 开始  （可选参数 和 limit 一同使用）|
 
 
 * **return : json**
