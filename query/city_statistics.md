@@ -10,9 +10,8 @@
 
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
-| caller_mobile  | string | no | 在白名单列表里中的手机号，即订单代叫人的手机号|
-| mobile|string|no|客户手机号|
-|real_order_id|string|no|实际订单编号|
+| start_time  | string | no | 时间区间的开始时间|
+| end_time|string|no|时间区间的结束时间|
 |limit|int|no|每页显示多少条数据 （可选参数 , 不填则所有） |
 |page|int|no|页码 从1 开始  （可选参数 和 limit 一同使用）|
 
@@ -23,7 +22,7 @@
 {
     "status" : true/false
     “code”:null
-    "msg" : null /暂无数据 
+    "msg" : null /无记录 
     "data" : [
         {
             "order_id"：<int>, //码上专车自己的订单编号
