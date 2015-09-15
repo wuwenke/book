@@ -30,6 +30,7 @@
           "city_en": "楼盘英文",
           "actvity_id" : "活动ID",
           "activity_type" : "活动类型",  //0城市维度 1项目维度
+          "act_type":"活动所属", // 0 开发商活动（合作）, 1乐居活动（非合作）
           "money" : <float>,   //单人单次约车金额， 如果改楼盘没有参与活动，那么此处是0，
           "longitude" : <float>, //地理位置，经度
           "latitude" : <float>, //地理位置，维度
