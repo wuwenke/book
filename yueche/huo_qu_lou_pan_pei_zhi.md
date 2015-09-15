@@ -15,7 +15,7 @@
 |mobile|int|no|预约用户的手机号 |
 |date_time|int|no|格式为时间戳 , 注意此处为，看房日期, 默认为查询明天|
 | type | int | no | 活动类型：0城市维度活动 1项目维度活动|
-| travel_type | int | no | 活动类型：0城市维度活动 1项目维度活动|
+| travel_type | int | no | 行程类型：0城市维度活动 1项目维度活动|
 | callback | sring | no | jsonp 回调函数名称 |
 
 * **return : json/jsonp**
