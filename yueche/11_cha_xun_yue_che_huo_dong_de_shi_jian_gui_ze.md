@@ -37,7 +37,7 @@
         address: <string>, //楼盘所在地址
         timestamp:<int>, //服务器的当前时间戳
         //约车时间范围和名额限制
-        date_range":{
+        date_range":{//去程
             "2015-06-13":{
                 "limit":"6",    //名额限制
                 "start":"14:00",    //开始时间
@@ -47,7 +47,7 @@
             },
                 ...
         }
-        return_date_range":{
+        return_date_range":{//返程
             "2015-06-15":{
                 "limit":"6",    //名额限制
                 "start":"14:00",    //开始时间
