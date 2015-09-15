@@ -46,7 +46,7 @@
                 "remain_order":5   //剩余名额
             },
                 ...
-        }"
+        }
         return_date_range:{
             "2015-06-15":{
                 "limit":"6",    //名额限制
