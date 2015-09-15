@@ -61,6 +61,7 @@
         app_unfilled: <int>,
         //项目余额
         balance:<float>,
+        act_type:"活动所属", // 0 开发商活动（合作）, 1乐居活动（非合作）
     }
 }
 
