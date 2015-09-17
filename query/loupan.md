@@ -42,8 +42,8 @@
           "district" : <string>, //楼盘区域
           "hometag" : <string>, //楼盘性质
           "price_display" : <string>, //楼盘的显示价格
-          "housetype" : <int>, //楼盘户型
-          "pricerange" : <int>, //楼盘的价格区间
+          "housetype" : <int>, //楼盘户型 （接口参考1 返回值的value）
+          "pricerange" : <int>, //楼盘的价格区间（接口参考2 返回值的value）
           ...
     }
 }
@@ -60,9 +60,9 @@
 ```
 以下接口由楼盘库提供
 
-城市下楼盘户型列表：http://data.house.sina.com.cn/api/get_dict.php?city=sc&type=common&district_flag=1&fields=housetype
+1.城市下楼盘户型列表：http://data.house.sina.com.cn/api/get_dict.php?city=sc&type=common&district_flag=1&fields=housetype
 
-城市下楼盘价格区间：http://data.house.sina.com.cn/api/get_dict.php?city=sc&type=common&district_flag=1&fields=pricerange
+2.城市下楼盘价格区间：http://data.house.sina.com.cn/api/get_dict.php?city=sc&type=common&district_flag=1&fields=pricerange
 ```
 
 * **requirement : **
