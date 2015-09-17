@@ -44,6 +44,7 @@
           "price_display" : <string>, //楼盘的显示价格
           "housetype" : <int>, //楼盘户型
           "pricerange" : <int>, //楼盘的价格区间
+          ...
     }
 }
 ```
