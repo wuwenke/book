@@ -21,8 +21,8 @@
 |start_address|string|yes|预约起始地地址(文字)|
 |tlat|float|yes|目的地纬度|
 |tlng|float|yes|目的地经度|
-|end_name|string|yes|预约起始地名称(文字)|
-|end_address|string|yes|预约起始地地址(文字)|
+|end_name|string|yes|预约目的地名称(文字)|
+|end_address|string|yes|预约目的地地址(文字)|
 | type | int | no | 活动类型：0城市维度活动 1项目维度活动|
 | travel_type | int | no | 行程类型(默认取1)：1预约去程 2预约回程|
 | callback | sring | no | jsonp 回调函数名称 |
