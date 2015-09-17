@@ -58,6 +58,8 @@
 * **接口参考：**
 
 ```
+以下接口由楼盘库提供
+
 城市下楼盘户型列表：http://data.house.sina.com.cn/api/get_dict.php?city=sc&type=common&district_flag=1&fields=housetype
 
 城市下楼盘价格区间：http://data.house.sina.com.cn/api/get_dict.php?city=sc&type=common&district_flag=1&fields=pricerange
