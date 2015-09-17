@@ -28,25 +28,31 @@
     “code”:null
     "msg" : null /暂无数据 
     "data" : {
-          "hid": "楼盘ID",
-          "name": "楼盘名称",
-          "city_en": "楼盘英文",
-          "actvity_id" : "活动ID",
-          "activity_type" : "活动类型",  //0城市维度 1项目维度
-          "act_type":"活动所属", // 0 开发商活动（合作）, 1乐居活动（非合作）
-          "money" : <float>,   //单人单次约车金额， 如果改楼盘没有参与活动，那么此处是0，
-          "longitude" : <float>, //地理位置，经度
-          "latitude" : <float>, //地理位置，维度
-          "address" : <string>, //楼盘所在地址
-          "pic_s30" : <string>, //楼盘库图片
-          "url" : <string>, //楼盘链接
-          "district" : <string>, //楼盘区域
-          "hometag" : <string>, //楼盘性质
-          "price_display" : <string>, //楼盘的显示价格
-          "housetype" : <int>, //楼盘户型 （接口参考1 返回值的value）
-          "pricerange" : <int>, //楼盘的价格区间（接口参考2 返回值的value）
-          ...
-    }
+            cnt : <int>,//总数
+            item ： [
+                {
+                  "hid": "楼盘ID",
+                  "name": "楼盘名称",
+                  "city_en": "楼盘英文",
+                  "actvity_id" : "活动ID",
+                  "activity_type" : "活动类型",  //0城市维度 1项目维度
+                  "act_type":"活动所属", // 0 开发商活动（合作）, 1乐居活动（非合作）
+                  "money" : <float>,   //单人单次约车金额， 如果改楼盘没有参与活动，那么此处是0，
+                  "longitude" : <float>, //地理位置，经度
+                  "latitude" : <float>, //地理位置，维度
+                  "address" : <string>, //楼盘所在地址
+                  "pic_s30" : <string>, //楼盘库图片
+                  "url" : <string>, //楼盘链接
+                  "district" : <string>, //楼盘区域
+                  "hometag" : <string>, //楼盘性质
+                  "price_display" : <string>, //楼盘的显示价格
+                  "housetype" : <int>, //楼盘户型 （接口参考1 返回值的value）
+                  "pricerange" : <int>, //楼盘的价格区间（接口参考2 返回值的value）
+                  ...
+                },
+                ...
+            ]
+        }
 }
 ```
 * **返回错误代码 code 列举**
