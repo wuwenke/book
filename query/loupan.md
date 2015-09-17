@@ -55,6 +55,13 @@
 
 ```
 
+* **接口参考：**
+
+```
+城市下楼盘户型列表：http://data.house.sina.com.cn/api/get_dict.php?city=sc&type=common&district_flag=1&fields=housetype
+
+城市下楼盘价格区间：http://data.house.sina.com.cn/api/get_dict.php?city=sc&type=common&district_flag=1&fields=pricerange
+```
 
 * **requirement : **
 * **provider : 码上专车系统**
