@@ -15,16 +15,16 @@
 |name |string|yes| 乘客姓名|
 |departure_time|int|yes|用户预约乘车时间，时间戳，指用户希望用车的时间|
 |cityhid|string|yes|楼盘的city_en+hid 如 bj123 (验证验证码有效性的时候 必须带入)|
+| travel_type | int | yes | 行程类型(默认取1)：1预约去程 2预约回程|
 |flat|float|yes|起始地纬度|
 |flng|float|yes|起始地经度|
 |start_name|string|yes|预约起始地名称(文字)|
 |start_address|string|yes|预约起始地地址(文字)|
-|tlat|float|yes|目的地纬度|
+|tlat|float|yes|目的地纬度（回程时必填）|
 |tlng|float|yes|目的地经度|
 |end_name|string|yes|预约目的地名称(文字)|
 |end_address|string|yes|预约目的地地址(文字)|
 | type | int | no | 活动类型：0城市维度活动 1项目维度活动|
-| travel_type | int | no | 行程类型(默认取1)：1预约去程 2预约回程|
 | callback | sring | no | jsonp 回调函数名称 |
 
 * **return : json/jsonp**
