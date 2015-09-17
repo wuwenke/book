@@ -15,6 +15,7 @@
 | key_word  | string | no | 楼盘名称 模糊匹配|
 |pricerange|int|no|价格区间|
 |housetype|int|no|户型|
+|district|string|no|区域（汉字如 海淀、朝阳等等。。）|
 |act_type|int|no|合作类型(默认是全部) 0是合作 1是非合作|
 |limit|int|no|每页显示多少条数据 （可选参数 , 不填则所有） |
 |page|int|no|页码 从1 开始  （可选参数 和 limit 一同使用）|
