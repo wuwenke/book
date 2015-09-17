@@ -13,6 +13,8 @@
 | -- | -- | -- | -- |
 | city_en  | string | no | 城市英文 , 空时查询全国|
 | key_word  | string | no | 楼盘名称 模糊匹配|
+|pricerange|int|no|价格区间|
+|housetype|int|no|户型|
 |limit|int|no|每页显示多少条数据 （可选参数 , 不填则所有） |
 |page|int|no|页码 从1 开始  （可选参数 和 limit 一同使用）|
 
@@ -35,6 +37,13 @@
           "longitude" : <float>, //地理位置，经度
           "latitude" : <float>, //地理位置，维度
           "address" : <string>, //楼盘所在地址
+          "pic_s30" : <string>, //楼盘库图片
+          "url" : <string>, //楼盘链接
+          "district" : <string>, //楼盘区域
+          "hometag" : <string>, //楼盘性质
+          "price_display" : <string>, //楼盘的显示价格
+          "housetype" : <int>, //楼盘户型
+          "pricerange" : <int>, //楼盘的价格区间
     }
 }
 ```
