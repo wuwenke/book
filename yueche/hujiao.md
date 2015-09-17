@@ -20,10 +20,10 @@
 |flng|float|yes|起始地经度|
 |start_name|string|yes|预约起始地名称(文字)|
 |start_address|string|yes|预约起始地地址(文字)|
-|tlat|float|yes|目的地纬度（回程时必填）|
-|tlng|float|yes|目的地经度（回程时必填）|
+|tlat|float|yes|目的地纬度（去程可省略）|
+|tlng|float|yes|目的地经度（去程可省略）|
 |end_name|string|yes|预约目的地名称(文字)|
-|end_address|string|yes|预约目的地地址(文字)（回程时必填）|
+|end_address|string|yes|预约目的地地址(文字)（去程可省略）|
 | type | int | no | 活动类型：0城市维度活动 1项目维度活动|
 | callback | sring | no | jsonp 回调函数名称 |
 
