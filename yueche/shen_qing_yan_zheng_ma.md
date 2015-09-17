@@ -19,6 +19,7 @@
 |yx_act |string|no|营销活动标识 yx_01 (91购房节)|
 |house_location|string|yes/no|楼盘地址 (验证验证码有效性的时候 必须带入)|
 | type | int | no | 活动类型：0城市维度活动 1项目维度活动|
+| travel_type | int | no | 行程类型（默认取1）：1预约去程 2预约回程|
 | callback | sring | no | jsonp 回调函数名称 |
 
 * **return : json/jsonp**
