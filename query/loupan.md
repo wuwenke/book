@@ -13,8 +13,8 @@
 | -- | -- | -- | -- |
 | city_en  | string | no | 城市英文 , 空时查询全国|
 | key_word  | string | no | 楼盘名称 模糊匹配|
-|pricerange|int|no|价格区间|
-|housetype|int|no|户型|
+|pricerange|int|no|价格区间（接口参考2 返回值的value）|
+|housetype|int|no|户型,（接口参考1 返回值的value）|
 |district|string|no|区域（汉字如 海淀、朝阳等等。。）|
 |act_type|int|no|合作类型(默认是全部) 0是合作 1是非合作|
 |limit|int|no|每页显示多少条数据 （可选参数 , 不填则所有） |
@@ -47,8 +47,8 @@
                   "district" : <string>, //楼盘区域
                   "hometag" : <string>, //楼盘性质
                   "price_display" : <string>, //楼盘的显示价格
-                  "housetype" : <int>, //楼盘户型 （接口参考1 返回值的value）
-                  "pricerange" : <int>, //楼盘的价格区间（接口参考2 返回值的value）
+                  "housetype" : <int>, //楼盘户型 
+                  "pricerange" : <int>, //楼盘的价格区间
                   ...
                 },
                 ...
@@ -71,6 +71,8 @@
 1.城市下楼盘户型列表：http://data.house.sina.com.cn/api/get_dict.php?city=sc&type=common&district_flag=1&fields=housetype
 
 2.城市下楼盘价格区间：http://data.house.sina.com.cn/api/get_dict.php?city=sc&type=common&district_flag=1&fields=pricerange
+
+3.城市下区域信息：http://data.house.sina.com.cn/api/get_dict.php?city=sc&type=common&district_flag=1&fields=district
 ```
 
 * **requirement : **
