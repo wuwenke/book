@@ -3,7 +3,7 @@
 
 * ** api : [/api/dataquery/getStartAppListByCity](/api/dataquery/getStartAppListByCity)** 
 
-* **method : GET**
+* **method : GET/POST**
 
 * **charset : UTF-8**
 
