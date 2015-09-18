@@ -13,6 +13,7 @@
 | -- | -- | -- | -- |
 | city_en  | string | no | 城市英文 , 空时查询全国|
 | key_word  | string | no | 楼盘名称 模糊匹配|
+|hid|int|no|楼盘hid|
 |pricerange|int|no|价格区间（接口参考2 返回值的value）|
 |housetype|int|no|户型,（接口参考1 返回值的value）|
 |district|string|no|区域（汉字如 海淀、朝阳等等。。）|
