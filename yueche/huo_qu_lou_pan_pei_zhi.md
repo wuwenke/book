@@ -63,7 +63,8 @@
         app_unfilled: <int>,
         //项目余额
         balance:<float>,
-        act_type:"活动所属", // 0 开发商活动（合作）, 1乐居活动（非合作）
+        act_type:"活动所属", // 0 开发商活动（合作）, 1乐居活动（非合作）,
+        remain_order: '楼盘剩余可约名额的总和' //仅当get_all 为1时 存在。
     }
 }
 
