@@ -1,6 +1,6 @@
 # 获取约车记录
 
-* ** api : [/yueche/didi/order_list](/yueche/didi/order_list)** 
+* ** api : [/api/dataquery/getOrder](/api/dataquery/getOrder)** 
 
 * **method : GET**
 
