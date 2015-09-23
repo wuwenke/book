@@ -43,7 +43,6 @@
         location: <string>,
         longitude : <float>, //地理位置，经度
         latitude : <float>, //地理位置，维度
-    
         // 项目 在date_time这一天 总共可预约报名的名额总共可预约报名的名额
         total: <int>,
         // 单⼈单次约车费⽤上限
