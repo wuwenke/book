@@ -43,8 +43,7 @@
         location: <string>,
         longitude : <float>, //地理位置，经度
         latitude : <float>, //地理位置，维度
-        // 在date_time这一天尚可预约报名的名额，如果周满或总名额也满，那么此处为0
-        unfilled: <int>,
+    
         // 项目 在date_time这一天 总共可预约报名的名额总共可预约报名的名额
         total: <int>,
         // 单⼈单次约车费⽤上限
@@ -66,7 +65,9 @@
         act_type:"活动所属", // 0 开发商活动（合作）, 1乐居活动（非合作）,
         qr_url : '生成约车二维码',
         remain_order: '楼盘剩余可约名额的总和' ,
-        week_unfilled: '周剩余名额'
+        week_unfilled: '周剩余名额',
+        // 在date_time这一天尚可预约报名的名额，如果周满或总名额也满，那么此处为0
+        unfilled: <int>,
     }
 }
 
