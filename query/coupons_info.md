@@ -25,6 +25,8 @@
     "data" : {
         “max_money”: <float> , 城市下 最高的单人单次约车金额
         “city_fraction” :<int> 全国活动总名额之和
+        "city_week_fraction": <int> 查询城市在当前周的总名额之和
+        "house_week_fraction": <int> 查询楼盘在当前周的总名额之和
     }
 }
 
