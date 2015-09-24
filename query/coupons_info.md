@@ -12,7 +12,6 @@
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
 | city_en  | string | yes| 城市英文 |
-|hid|string|no|楼盘HID|
 
 
 * **return : json**
