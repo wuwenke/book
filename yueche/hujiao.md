@@ -13,9 +13,10 @@
 | -- | -- | -- | -- |
 |mobile|int|yes| 乘客手机号 (仅针对国内运营商手机号) |
 |name |string|yes| 乘客姓名|
-|departure_time|int|yes|用户预约乘车时间，时间戳，指用户希望用车的时间|
+|departure_time|int|yes|用户预约乘车时间，时间戳，指用户希望用车的时间（约实时车可省略）|
 |cityhid|string|yes|楼盘的city_en+hid 如 bj123 (验证验证码有效性的时候 必须带入)|
-| travel_type | int | yes | 行程类型(默认取1)：1预约去程 2预约回程|
+| travel_type | int | yes | 行程类型(默认取1)：1去程 2回程|
+| call_type | int | yes | 叫车类型(默认取1)：1预约 2实时|
 |flat|float|yes|起始地纬度（回程可省略）|
 |flng|float|yes|起始地经度（回程可省略）|
 |start_name|string|yes|预约起始地名称(文字)|
