@@ -13,7 +13,7 @@
 | -- | -- | -- | -- |
 | cityhid  | string | yes | 用户预约的专车目标楼盘编号，格式为 city_en + hid ，此楼盘 编号与 location_end 对应的地址是对应关系，即用户提交报名的楼盘页面对应的 楼盘编号 |
 | type | int | no | 活动类型：0城市维度活动 1项目维度活动|
-| backOrder | int | no | 是否是后台约车的标识，1是|
+| backOrder | int | no | 接口默认返回T+1 -- T+7活动规则，此参数为1时返回T -- T+6|
 | callback | sring | no | jsonp 回调函数名称 |
 
 * **return : json/jsonp**
