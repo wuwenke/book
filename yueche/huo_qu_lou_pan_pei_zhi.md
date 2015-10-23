@@ -14,7 +14,7 @@
 | cityhid  | string | yes | 用户预约的专车目标楼盘编号，格式为 city_en + hid ，此楼盘 编号与 location_end 对应的地址是对应关系，即用户提交报名的楼盘页面对应的 楼盘编号 |
 |mobile|int|no|预约用户的手机号 |
 |date_time|int|no|格式为时间戳 , 注意此处为，看房日期, 默认为查询可约的第一天|
-| type | int | no | 活动类型：0城市维度活动 1项目维度活动|
+| type | int | yes | 活动类型：0城市维度活动 1项目维度活动|
 | travel_type | int | no | 行程类型(默认取1)：1预约去程 2预约回程|
 | callback | sring | no | jsonp 回调函数名称 |
 
